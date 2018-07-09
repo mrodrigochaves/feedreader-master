@@ -54,15 +54,16 @@
              beforeEach(function(done){
                 loadFeed(0, done);
              });
-            
+
+
              it('should have at least one entry displayed on the feed', function(){
                 const theEntries = $('.feed .entry').length;
                 expect(theEntries).not.toBe(0);
              });
     });
-        
             // New Feed Selection test suite
             describe('New Feed Selection', function(){
+
 
             // Tests if the content changes when a new feed is selected.
             // Reloads default feed after the test is done.
@@ -81,4 +82,5 @@
                 expect(initialFeed).not.toEqual(nextFeed);
             });
         });
+
     }());
