@@ -54,6 +54,7 @@
              beforeEach(function(done){
                 loadFeed(0, done);
              });
+            
              it('should have at least one entry displayed on the feed', function(){
                 const theEntries = $('.feed .entry').length;
                 expect(theEntries).not.toBe(0);
