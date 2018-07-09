@@ -14,6 +14,3 @@ To start this application, open the index.html file in your browser.
 ```
 Rules from the project here:
 [Rules Feed Reader](https://github.com/udacity/frontend-nanodegree-feedreader/)
-
-Browser for app here:
-[Feed Reader](https://mrodrigochaves.github.io/frontend-nanodegree-feedreader-master/?spec=theMenu%20theChangeMenu/)
