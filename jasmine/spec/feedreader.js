@@ -51,11 +51,9 @@
              // A loadFeed function is called and complete its work.
              // Tests if there is at least one entry displayed on the feed.
              // Callback function to be called when asynchronous request is finished.
-             beforeEach(function(done) {
-                loadFeed(0, function(){
-                    done();
-                });
-              });
+             beforeEach(function(done){
+                loadFeed(0, done);
+             });
              it('should have at least one entry displayed on the feed', function(){
                 const theEntries = $('.feed .entry').length;
                 expect(theEntries).not.toBe(0);
